@@ -1,0 +1,210 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+# Global
+--------------------------------------------------------------*/
+h1.entry-title.blpro-locked-title {
+    text-align: center;
+    margin-top: 40px !important;
+}
+
+.bplock-login-form-container-wrapper {
+    max-width: 750px !important;
+    margin: auto;
+    padding: 0 15px !important;
+}
+
+.bplock-locked-message {
+    background: #fff;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    padding: 15px !important;
+    position: relative;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    text-align: center;
+}
+
+.bplock-login-form-container {
+    margin: 0;
+    padding: 30px 0;
+}
+
+.bplock-login-form-container-inner {
+    border: 1px solid #e6e3e3;
+    background: #fff;
+    padding: 40px 30px;
+    max-width: 550px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.bplock-formgroup {
+    margin-bottom: 15px;
+}
+
+.bplock-formgroup label {
+    margin-bottom: 8px;
+    display: block;
+}
+
+.bplock-login-form-container input[id],
+.bplock-login-form-container button {
+    background: #fff;
+    position: relative;
+    vertical-align: top;
+    border:1px solid #d1d4d6 !important;
+    display: inline-block;
+    color: #34495e;
+    outline: 0;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border-radius:8px;
+}
+
+.bplock-btn-section {
+    display: flex;
+    gap: 5px;
+    margin: 20px 0 5px;
+}
+
+button#bplock-login-btn,
+a#bplock-register-btn {
+    color: #fff;
+    height: auto;
+    background: #157dfd;
+    font-size: 18px;
+    border: none !important;
+    width: 130px;
+    padding:12px 10px;
+    border-radius: 10px !important;
+    margin-right: 10px;
+    display: block;
+    text-align: center;
+    border: none;
+    align-items: center;
+}
+
+.bplock-btn-section a#bplock-register-btn {
+    background: #00c3a5;
+    border-color: #00c3a5;
+}
+
+.bplock-register-form-container {
+    margin: 30px 15px;
+}
+.bplock-login-form-container input:focus,
+.bplock-login-form-container button:focus {
+    border-color: #555 !important;
+}
+
+#bplock-login-btn,
+#bplock-register-btn {
+    line-height: normal;
+}
+
+.bplock-register-form-container input {
+    margin-bottom: 0!important;
+}
+
+ul.bplock-login-shortcode-tabs {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul.bplock-login-shortcode-tabs li {
+    color: #222;
+    display: inline-block;
+    padding: 10px 25px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #eee;
+    background: #fff;
+    border-bottom: none;
+}
+.bplock-login-form-container p {
+    margin-bottom: 20px;
+}
+
+.bplock-login-form-container p:last-child {
+    margin-bottom: 0;
+}
+
+ul.bplock-login-shortcode-tabs li.current {
+    background: #ffffff;
+    color: #157dfd;
+    box-shadow: 0px 2px 0 #157dfd;
+    border-radius: 0;
+}
+
+#bplock-login-tab i.fa.fa-sign-in {
+    font-family: FontAwesome !important;
+}
+
+.bplock-login-form-container .tab-content {
+    display: none;
+    background: #fff;
+    padding:15px;
+    border: 1px solid #eee;
+}
+
+.bplock-login-form-container .tab-content.current {
+    display: inherit;
+    box-shadow: 0 0 50px #f3f3f3;
+}
+
+.isa_info,
+.isa_success,
+.isa_warning,
+.isa_error {
+    margin: 5px 0px 15px;
+}
+
+.isa_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+}
+
+.isa_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+}
+
+.isa_warning {
+    color: #9F6000;
+    background-color: #FEEFB3;
+}
+
+.isa_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+.isa_info i,
+.isa_success i, 
+.isa_warning i,
+.isa_error i {
+    margin: 0 8px 0px 0;
+    font-size: 1.6em;
+    vertical-align: middle;
+}
+
+.bplock-message {
+    display: none;
+    padding: 10px 15px;   
+    border-radius: 10px;
+}
+
+#bplock-login-error{
+    background: #fdefef;
+}

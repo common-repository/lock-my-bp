@@ -1,0 +1,23 @@
+{
+  "name": "bp-lock",
+  "version": "2.0.1",
+  "url": "https://github.com/wbcomdesigns/bp-lock",
+  "license": "GPL-2.0+",
+  "description": "buddypress-poll",
+  "devDependencies": {
+    "grunt": "^1.4.1",
+    "grunt-checktextdomain": "^1.0.1",
+    "grunt-wp-i18n": "^1.0.1"
+  },
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wbcomdesigns/bp-lock"
+  },
+  "dependencies": {
+    "load-grunt-tasks": "^3.5.2",
+    "npm": "^8.15.1"
+  }
+}

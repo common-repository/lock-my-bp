@@ -1,0 +1,79 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.nav-tab-wrapper ul li.General a.nav-tab:before {
+    content: "\f111";
+}
+.nav-tab-wrapper ul li.Pages a.nav-tab:before {
+    content: "\f133";
+}
+.nav-tab-wrapper ul li.Support a.nav-tab:before {
+    content: "\f125";
+}
+.wbcom-settings-member-retraction.wbcom-settings-section-options {
+    display: flex;
+    align-items: center;
+}
+.bplock-general-settings-section-col3 {
+    margin-right: 25px;
+    font-size: 15px;
+}
+
+.bplock-header {
+	float: left;
+	width: 100%;
+	padding: 10px 0px;
+}
+.bplock-header .bplock-plugin-heading {
+	float: left;
+	margin: 0px;
+}
+.notice-success, div.updated {
+	clear: both;
+}
+
+.wbcom-faq-prmotion-row {
+    background: #eaecfa;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    border: 1px solid;
+    color: #2a32ef;
+    padding: 0;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.wbcom-faq-prmotion-row p {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 12px;
+}
+.wbcom-faq-prmotion-row p a{
+    color: red;
+}
+
+.wbcom-settings-section-options.bplock-pages-slected input[type="text"] {
+    height: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.wbcom-video-link-wrapper iframe,
+.wbcom-video-link-wrapper .col-right,
+.wbcom-video-link-wrapper .fluid-width-video-wrapper {
+    width: 100%;
+    padding: 1%;
+}
+.bplock-general-settings-container .form-table th,
+.bplock-pages-settings-container .form-table th,
+.bplock-pages-settings-container.form-table td,
+.bplock-general-settings-container .form-table td  {
+    padding:15px !important;
+}
+
+
+}
+
+
